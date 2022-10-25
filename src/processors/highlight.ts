@@ -17,7 +17,7 @@ export function createHighlightProcessor(options: HighlightProcessorOptions = {}
 		name: 'highlight',
 		handler: createRangeProcessor({
 			[highlightTag]: [hasHighlightClass],
-		}),
+		}, options),
 		postProcess: ({ code }) => {
 			if (!code.includes(hasHighlightClass)) {
 				return code

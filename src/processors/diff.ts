@@ -24,7 +24,7 @@ export function createDiffProcessor(options: DiffProcessorOptions = {}): Process
 		handler: createRangeProcessor({
 			[removeLineTag]: [commonDiffClass, ...removedLinesClasses],
 			[addLineTag]: [commonDiffClass, ...addedLinesClasses],
-		}),
+		}, options),
 		postProcess: ({ code }) => {
 			if (!code.includes(commonDiffClass)) {
 				return code

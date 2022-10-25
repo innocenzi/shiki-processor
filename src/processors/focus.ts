@@ -17,7 +17,7 @@ export function createFocusProcessor(options: FocusProcessorOptions = {}): Proce
 		name: 'focus',
 		handler: createRangeProcessor({
 			[focusTag]: [hasFocusClass],
-		}),
+		}, options),
 		postProcess: ({ code }) => {
 			if (!code.includes(hasFocusClass)) {
 				return code
