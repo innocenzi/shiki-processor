@@ -1,6 +1,13 @@
 import type { Processor, ProcessorResult } from './types'
 
 /**
+ * Defines a processor.
+ */
+export function defineProcessor(processor: Processor): Processor {
+	return processor
+}
+
+/**
  * Transforms code through the given processors.
  */
 export function process(processors: Processor[], code: string, lang: string) {
