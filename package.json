@@ -1,0 +1,63 @@
+{
+	"name": "shiki-processor",
+	"type": "module",
+	"version": "0.0.0",
+	"packageManager": "pnpm@7.12.0",
+	"description": "Add processing capabilities to Shiki's highlighter",
+	"author": "Enzo Innocenzi <enzi@innocenzi.dev>",
+	"license": "MIT",
+	"funding": "https://github.com/sponsors/innocenzi",
+	"homepage": "https://github.com/innocenzi/shiki-processor#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/innocenzi/shiki-processor.git"
+	},
+	"bugs": "https://github.com/innocenzi/shiki-processor/issues",
+	"keywords": [],
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"main": "./dist/index.mjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"typesVersions": {
+		"*": {
+			"*": [
+				"./dist/*",
+				"./dist/index.d.ts"
+			]
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "unbuild",
+		"dev": "unbuild --stub",
+		"lint": "eslint .",
+		"prepublishOnly": "nr build",
+		"release": "bumpp && npm publish",
+		"start": "esno src/index.ts",
+		"test": "vitest",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@antfu/ni": "^0.18.2",
+		"@antfu/utils": "^0.6.0",
+		"@innocenzi/eslint-config": "^0.12.0",
+		"@types/node": "^18.11.5",
+		"bumpp": "^8.2.1",
+		"eslint": "^8.26.0",
+		"esno": "^0.16.3",
+		"pnpm": "^7.14.0",
+		"shiki": "^0.11.1",
+		"typescript": "^4.8.4",
+		"unbuild": "^0.9.4",
+		"vitest": "^0.24.3"
+	}
+}
