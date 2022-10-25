@@ -1,8 +1,11 @@
 {
 	"name": "shiki-processor",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Add processing capabilities to Shiki's highlighter",
-	"keywords": ["shiki", "processor"],
+	"keywords": [
+		"shiki",
+		"processor"
+	],
 	"license": "MIT",
 	"repository": {
 		"type": "git",
