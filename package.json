@@ -46,6 +46,9 @@
 		"test": "vitest",
 		"typecheck": "tsc --noEmit"
 	},
+	"peerDependencies": {
+		"shiki": "^0.11.1"
+	},
 	"devDependencies": {
 		"@antfu/ni": "^0.18.2",
 		"@antfu/utils": "^0.6.0",
@@ -59,8 +62,5 @@
 		"typescript": "^4.8.4",
 		"unbuild": "^0.9.4",
 		"vitest": "^0.24.3"
-	},
-	"peerDependencies": {
-		"shiki": "^0.11.1"
 	}
 }
