@@ -1,20 +1,23 @@
 {
 	"name": "shiki-processor",
-	"type": "module",
 	"version": "0.0.0",
-	"packageManager": "pnpm@7.12.0",
 	"description": "Add processing capabilities to Shiki's highlighter",
-	"author": "Enzo Innocenzi <enzi@innocenzi.dev>",
+	"keywords": ["shiki", "processor"],
 	"license": "MIT",
-	"funding": "https://github.com/sponsors/innocenzi",
-	"homepage": "https://github.com/innocenzi/shiki-processor#readme",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/innocenzi/shiki-processor.git"
 	},
+	"funding": "https://github.com/sponsors/innocenzi",
+	"author": "Enzo Innocenzi <enzi@innocenzi.dev>",
+	"type": "module",
+	"packageManager": "pnpm@7.12.0",
+	"homepage": "https://github.com/innocenzi/shiki-processor#readme",
 	"bugs": "https://github.com/innocenzi/shiki-processor/issues",
-	"keywords": [],
 	"sideEffects": false,
+	"files": [
+		"dist"
+	],
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
@@ -33,9 +36,6 @@
 			]
 		}
 	},
-	"files": [
-		"dist"
-	],
 	"scripts": {
 		"build": "unbuild",
 		"dev": "unbuild --stub",
