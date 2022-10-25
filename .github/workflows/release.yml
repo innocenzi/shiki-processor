@@ -22,6 +22,6 @@ jobs:
           node-version: 16.x
           cache: pnpm
 
-      - run: npx changelogithub --no-emoji --no-capitalize --no-group
+      - run: npx changelogithub --no-emoji --no-capitalize --no-group --no-contributors
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
