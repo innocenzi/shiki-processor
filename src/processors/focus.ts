@@ -8,7 +8,7 @@ export interface FocusProcessorOptions extends RangeProcessorOptions {
 	focusTag?: string
 }
 
-export default function(options: FocusProcessorOptions = {}): Processor {
+export function createFocusProcessor(options: FocusProcessorOptions = {}): Processor {
 	const hasFocusClass = options.hasFocusClass ?? 'has-focus'
 	const hasFocusedLinesClass = options.hasFocusedLinesClass ?? 'has-focused-lines'
 	const focusTag = options.focusTag ?? 'focus'

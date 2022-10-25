@@ -8,7 +8,7 @@ export interface HighlightProcessorOptions extends RangeProcessorOptions {
 	highlightTag?: string
 }
 
-export default function(options: HighlightProcessorOptions = {}): Processor {
+export function createHighlightProcessor(options: HighlightProcessorOptions = {}): Processor {
 	const hasHighlightClass = options.hasHighlightClass ?? 'has-highlight'
 	const hasHighlightedLinesClass = options.hasHighlightedLinesClass ?? 'has-highlighted-lines'
 	const highlightTag = options.highlightTag ?? 'hl'

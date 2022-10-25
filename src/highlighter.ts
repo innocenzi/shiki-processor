@@ -1,12 +1,12 @@
-import { getHighlighter as getShikiHighlighter, Highlighter, HighlighterOptions } from 'shiki'
+import { getHighlighter as getShikiHighlighter, Highlighter, HighlighterOptions as ShikiHighlighterOptions } from 'shiki'
 import { postProcess, process } from './processor'
 import type { Processor } from './types'
 
-interface Options extends HighlighterOptions {
+export interface HighlighterOptions extends ShikiHighlighterOptions {
 	processors?: Processor[]
 }
 
-export async function getHighlighter(options: Options = {}): Promise<Highlighter> {
+export async function getHighlighter(options: HighlighterOptions = {}): Promise<Highlighter> {
 	const highlighter = await getShikiHighlighter(options)
 	const processors = options.processors ?? []
 

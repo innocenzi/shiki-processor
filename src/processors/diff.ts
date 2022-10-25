@@ -11,7 +11,7 @@ export interface DiffProcessorOptions extends RangeProcessorOptions {
 	hasDiffClass?: string
 }
 
-export default function(options: DiffProcessorOptions = {}): Processor {
+export function createDiffProcessor(options: DiffProcessorOptions = {}): Processor {
 	const commonDiffClass = options.commonDiffClass ?? 'diff'
 	const removedLinesClasses = options.removedLinesClasses ?? ['remove']
 	const addedLinesClasses = options.removedLinesClasses ?? ['add']
