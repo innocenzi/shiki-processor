@@ -15,3 +15,8 @@ it('adds the given class to the last element when no tag is given', () => {
 	const result = addClass('<pre class="base"><code class="base"></code></pre>', 'vp-code-dark')
 	expect(result).toMatchSnapshot()
 })
+
+it('adds the given class to the given element when the class is not the first attribute', () => {
+	const result = addClass('<pre v-pre class="shiki"><code>...</code></pre>', 'vp-code-dark', 'pre')
+	expect(result).toMatchSnapshot()
+})
