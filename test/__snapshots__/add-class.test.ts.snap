@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`adds the given class to the given element tag 1`] = `"<pre class=\\"base vp-code-dark\\"><code></code></pre>"`;
+
+exports[`adds the given class to the given nested element tag 1`] = `"<pre class=\\"base\\"><code class=\\"base vp-code-dark\\"></code></pre>"`;
+
+exports[`adds the given class to the last element when no tag is given 1`] = `"<pre class=\\"base\\"><code class=\\"base\\"></code></pre>"`;
