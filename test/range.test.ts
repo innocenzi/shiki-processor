@@ -3,6 +3,7 @@ import { createRangeProcessor, getHighlighter } from '../src'
 
 it('understands the range syntax', async() => {
 	const highlighter = await getHighlighter({
+		theme: 'nord',
 		processors: [{
 			name: 'test',
 			handler: createRangeProcessor({

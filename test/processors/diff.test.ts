@@ -3,6 +3,7 @@ import { getHighlighter, createDiffProcessor, DiffProcessorOptions } from '../..
 
 async function testDiffProcessor(snippet: string, options: DiffProcessorOptions = {}) {
 	const highlighter = await getHighlighter({
+		theme: 'nord',
 		processors: [
 			createDiffProcessor(options),
 		],

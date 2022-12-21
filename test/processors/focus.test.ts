@@ -3,6 +3,7 @@ import { getHighlighter, createFocusProcessor, FocusProcessorOptions } from '../
 
 async function testFocusProcessor(snippet: string, options: FocusProcessorOptions = {}) {
 	const highlighter = await getHighlighter({
+		theme: 'nord',
 		processors: [
 			createFocusProcessor(options),
 		],

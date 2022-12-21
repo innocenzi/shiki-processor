@@ -1,7 +1,7 @@
 // Vitest Snapshot v1
 
 exports[`understands the range syntax 1`] = `
-"<pre class=\\"shiki\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
+"<pre class=\\"shiki nord\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">	</span><span style=\\"color: #81A1C1\\">function</span><span style=\\"color: #D8DEE9FF\\"> </span><span style=\\"color: #ECEFF4\\">()</span><span style=\\"color: #D8DEE9FF\\"> </span><span style=\\"color: #ECEFF4\\">{</span></span>
 <span class=\\"line is-tested\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #D8DEE9\\">console</span><span style=\\"color: #ECEFF4\\">.</span><span style=\\"color: #88C0D0\\">log</span><span style=\\"color: #D8DEE9FF\\">(</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #A3BE8C\\">uwu</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #D8DEE9FF\\">)  </span></span>
 <span class=\\"line is-tested\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #D8DEE9\\">console</span><span style=\\"color: #ECEFF4\\">.</span><span style=\\"color: #88C0D0\\">log</span><span style=\\"color: #D8DEE9FF\\">(</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #A3BE8C\\">owo</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #D8DEE9FF\\">)</span></span>

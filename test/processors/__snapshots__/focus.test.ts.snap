@@ -1,7 +1,7 @@
 // Vitest Snapshot v1
 
 exports[`allows custom focus class 1`] = `
-"<pre class=\\"shiki has-focused-lines\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
+"<pre class=\\"shiki nord has-focused-lines\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #81A1C1\\">function</span><span style=\\"color: #ECEFF4\\">()</span><span style=\\"color: #D8DEE9FF\\"> </span><span style=\\"color: #ECEFF4\\">{</span></span>
 <span class=\\"line is-focused\\"><span style=\\"color: #D8DEE9FF\\">			</span><span style=\\"color: #D8DEE9\\">console</span><span style=\\"color: #ECEFF4\\">.</span><span style=\\"color: #88C0D0\\">log</span><span style=\\"color: #D8DEE9FF\\">(</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #A3BE8C\\">owo</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #D8DEE9FF\\">) </span></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #ECEFF4\\">}</span></span>
@@ -9,7 +9,7 @@ exports[`allows custom focus class 1`] = `
 `;
 
 exports[`allows custom focused lines class 1`] = `
-"<pre class=\\"shiki contains-focused-lines\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
+"<pre class=\\"shiki nord contains-focused-lines\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #81A1C1\\">function</span><span style=\\"color: #ECEFF4\\">()</span><span style=\\"color: #D8DEE9FF\\"> </span><span style=\\"color: #ECEFF4\\">{</span></span>
 <span class=\\"line has-focus\\"><span style=\\"color: #D8DEE9FF\\">			</span><span style=\\"color: #D8DEE9\\">console</span><span style=\\"color: #ECEFF4\\">.</span><span style=\\"color: #88C0D0\\">log</span><span style=\\"color: #D8DEE9FF\\">(</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #A3BE8C\\">owo</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #D8DEE9FF\\">) </span></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #ECEFF4\\">}</span></span>
@@ -17,7 +17,7 @@ exports[`allows custom focused lines class 1`] = `
 `;
 
 exports[`allows custom tags 1`] = `
-"<pre class=\\"shiki has-focused-lines\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
+"<pre class=\\"shiki nord has-focused-lines\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #81A1C1\\">function</span><span style=\\"color: #ECEFF4\\">()</span><span style=\\"color: #D8DEE9FF\\"> </span><span style=\\"color: #ECEFF4\\">{</span></span>
 <span class=\\"line has-focus\\"><span style=\\"color: #D8DEE9FF\\">			</span><span style=\\"color: #D8DEE9\\">console</span><span style=\\"color: #ECEFF4\\">.</span><span style=\\"color: #88C0D0\\">log</span><span style=\\"color: #D8DEE9FF\\">(</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #A3BE8C\\">owo</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #D8DEE9FF\\">) </span></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #ECEFF4\\">}</span></span>
@@ -25,7 +25,7 @@ exports[`allows custom tags 1`] = `
 `;
 
 exports[`generates focused lines on the same line as the tag 1`] = `
-"<pre class=\\"shiki has-focused-lines\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
+"<pre class=\\"shiki nord has-focused-lines\\" style=\\"background-color: #2e3440ff\\"><code><span class=\\"line\\"></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #81A1C1\\">function</span><span style=\\"color: #ECEFF4\\">()</span><span style=\\"color: #D8DEE9FF\\"> </span><span style=\\"color: #ECEFF4\\">{</span></span>
 <span class=\\"line has-focus\\"><span style=\\"color: #D8DEE9FF\\">			</span><span style=\\"color: #D8DEE9\\">console</span><span style=\\"color: #ECEFF4\\">.</span><span style=\\"color: #88C0D0\\">log</span><span style=\\"color: #D8DEE9FF\\">(</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #A3BE8C\\">owo</span><span style=\\"color: #ECEFF4\\">&#39;</span><span style=\\"color: #D8DEE9FF\\">) </span></span>
 <span class=\\"line\\"><span style=\\"color: #D8DEE9FF\\">		</span><span style=\\"color: #ECEFF4\\">}</span></span>

@@ -3,6 +3,7 @@ import { getHighlighter, createHighlightProcessor, HighlightProcessorOptions } f
 
 async function testHighlightProcessor(snippet: string, options: HighlightProcessorOptions = {}) {
 	const highlighter = await getHighlighter({
+		theme: 'nord',
 		processors: [
 			createHighlightProcessor(options),
 		],
