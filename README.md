@@ -41,7 +41,7 @@ Alternatively, for more flexibility, it is possible to use the `process` and `po
 import { getHighlighter } from 'shiki'
 import { process, postProcess } from 'shiki-processor'
 
-const theme = 'material-night'
+const theme = 'material-theme-palenight'
 const lang = 'javascript'
 const snippet = /** ... */
 const processors = [
