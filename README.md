@@ -18,6 +18,15 @@
 
 &nbsp;
 
+## Package is no longer maintained
+
+I suggest migrating to [`shikiji`](https://github.com/antfu/shikiji) and its dedicated [`shikiji-transformers`](https://github.com/antfu/shikiji/tree/main/packages/shikiji-transformers) package, that's a port of this one.
+- https://twitter.com/antfu7/status/1727781829082595341
+- https://github.com/vuejs/vitepress/pull/3237
+
+
+&nbsp;
+
 ## Usage
 
 `shiki-processor` exports a custom `getHighlighter` that provides the same API as the one exported from `shiki`, except it adds a new `processors` option.
